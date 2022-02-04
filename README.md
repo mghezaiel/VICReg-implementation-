@@ -4,7 +4,7 @@ Implementation of the Variance Invariance Covariance regularization approach app
 This is an example of a dimensionality reduction task following the paper:
 <br>
 
-<i>Bardes, A., Ponce, J., & LeCun, Y. (2021).<i/><br>
+<i>Bardes, A., Ponce, J., & LeCun, Y. (2021).</i><br>
     
 <b>VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning.</b> ArXiv, abs/2105.04906.
    
