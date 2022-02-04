@@ -1,8 +1,7 @@
 # VICReg-implementation-
 Implementation of the Variance Invariance Covariance regularization approach applied to dimensionality reduction
 
-# VICReg paper implementation: example for dimensionality reduction 
-This is an example of dimensionality reduction task following the paper:
+This is an example of a dimensionality reduction task following the paper:
 <br>
 
 <i>Bardes, A., Ponce, J., & LeCun, Y. (2021).<i/><br>
