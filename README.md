@@ -27,7 +27,7 @@ All modules were implemented in the local repository and following what as been 
 
 2) Short explanation of VICReg:
 
-The work was initially developped to produce embeddings from image data that are subject to data augmentation using affine transformation or cropping.
+The work was initially developped to produce embeddings from image data that are subject to data augmentation such as affine transformation or cropping.
 The idea is about trying to learn similar embeddings between different view of the data (ie: augmented view). 
 Inspired by this work, this can be used for dimensionality reduction. The architecture consists in: 
 
@@ -36,7 +36,7 @@ Inspired by this work, this can be used for dimensionality reduction. The archit
 
 ![alt text](https://github.com/mghezaiel/VICReg-implementation-/blob/master/architecture.png)
 
-Consistency of the learned embeddings (Y and Y') with the input data (X and X') is expected to be achieved through regularization of the projection Z and Z'
+Consistency of the learned embeddings (Y and Y') with the input data (X and X') is expected to be achieved through regularization of the projections Z and Z'
     
 Regularization is performed by defining the VICReg loss:
 
