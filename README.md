@@ -35,7 +35,7 @@ Inspired by this work, this can be used for dimensionality reduction. The archit
     2) Two other networks (decoders or projectors) that projects the embeddings to a higher dimensional space (Z and Z')
 
 
-Consistency of the learned embeddings (Y and Y') with the input data (X and X') through regularization of the projection Z and Z'
+Consistency of the learned embeddings (Y and Y') with the input data (X and X') is expected to be achieved through regularization of the projection Z and Z'
     
 Regularization is performed by defining the VICReg loss:
 
