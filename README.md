@@ -23,7 +23,7 @@ All modules were implemented in the local repository and following what as been 
             a) Input data
             b) Predicted embeddings. 
     
-![alt text](https://github.com/mghezaiel/VICReg-implementation-/blob/master/architecture.png)
+
 
 2) Short explanation of VICReg:
 
@@ -34,6 +34,7 @@ Inspired by this work, this can be used for dimensionality reduction. The archit
     1) Two siamese networks (encoders) that produce embeddings (Y and Y')
     2) Two other networks (decoders or projectors) that projects the embeddings to a higher dimensional space (Z and Z')
 
+![alt text](https://github.com/mghezaiel/VICReg-implementation-/blob/master/architecture.png)
 
 Consistency of the learned embeddings (Y and Y') with the input data (X and X') is expected to be achieved through regularization of the projection Z and Z'
     
