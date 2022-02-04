@@ -23,7 +23,7 @@ All modules were implemented in the local repository and following what as been 
             a) Input data
             b) Predicted embeddings. 
     
-![alt text](http://url/to/img.png) 
+![alt text](https://github.com/mghezaiel/VICReg-implementation-/blob/master/architecture.png)
 
 2) Short explanation of VICReg:
 
