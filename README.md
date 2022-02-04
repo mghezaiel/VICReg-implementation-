@@ -37,7 +37,8 @@ Inspired by this work, this can be used for dimensionality reduction. The archit
 
 Consistency of the learned embeddings (Y and Y') with the input data (X and X') through regularization of the projection Z and Z'
     
-Regularization is performed by defining the VICReg loss: 
+Regularization is performed by defining the VICReg loss:
+
     - Variance loss: That maintains variance inside a batch (for Z and Z' independantly)
     - Invariance loss: That maintains similarity between embeddings Z and Z' (MSE) 
     - Covariance loss: That enforces sparsity of the covariance matrix to maintain independance between dimensions (for Z and Z' independantly)
