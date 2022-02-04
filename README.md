@@ -10,7 +10,7 @@ This is an example of a dimensionality reduction task following the paper:
    
 I adapted the work to non image data (nxm matrices) for unsupervised dimensionality reduction. 
     
-All modules were implemented in the local repository and following what as been described in the paper. 
+All modules were implemented in the local repository and following what has been described in the paper. 
 
     
 1) The library contains:
