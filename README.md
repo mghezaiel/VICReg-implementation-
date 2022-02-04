@@ -25,7 +25,8 @@ All modules were implemented in the local repository and following what as been 
     
 ![alt text](http://url/to/img.png) 
 
-2) Short explanation of VICReg:<br>
+2) Short explanation of VICReg:
+<br>
 The work was initially developped to produce embeddings from image data that are subject to data augmentation using affine transformation or cropping.
 The idea is about trying to learn similar embeddings between different view of the data (ie: augmented view). 
 Inspired by this work, this can be used for dimensionality reduction. The architecture consists in: 
