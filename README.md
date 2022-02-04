@@ -31,7 +31,7 @@ The work was initially developped to produce embeddings from image data that are
 The idea is about trying to learn similar embeddings between different view of the data (ie: augmented view). 
 Inspired by this work, this can be used for dimensionality reduction. The architecture consists in: 
 
-    1) Two siamese networks (encoders) that produces embeddings (Y and Y')
+    1) Two siamese networks (encoders) that produce embeddings (Y and Y')
     2) Two other networks (decoders or projectors) that projects the embeddings to a higher dimensional space (Z and Z')
 
 
