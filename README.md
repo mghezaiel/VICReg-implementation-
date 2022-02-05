@@ -14,9 +14,9 @@ All modules were implemented in the local repository and following what has been
 
         - A simple encoder consisting in a single dense layer followed by relu activation. 
         - A projector with the same architecture that aims to project the data in a higher dimensional space.
-        - The Variance - Invariance - Covariance loss applied to the project data.
-        - An optuna based optimization setting to optimize: loss hyperparameters (mu and lambda, cf paper) and training hypeparameters. 
-        - A class to evaluate the quality of embeddings by comparing silhouette coefficient based clustering separability between:
+        - The Variance - Invariance - Covariance loss applied to the projected data.
+        - An optuna based optimization class to optimize: loss hyperparameters (mu and lambda, cf paper) and training hypeparameters. 
+        - A class to evaluate embeddings quality by comparing silhouette coefficient based clustering separability between:
             a) Input data
             b) Predicted embeddings. 
     
